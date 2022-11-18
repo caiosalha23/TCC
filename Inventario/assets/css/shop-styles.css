@@ -48,12 +48,14 @@ body {
 /* Changing the bootstrap table stripe colors to red */
 .table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {
    background-color: #ecf9ec;
+   color:black;
+   background-color: white;
 }
 
 /* Changing the background color for tab/pills */
-.nav-link activate show .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: black;
+    background-color: #201b2c;
 }
 
 /* Display the suggestions list on top of other elements */
@@ -71,4 +73,3 @@ body {
 .blueText {
 	color: #2FA4E7;
 }
-

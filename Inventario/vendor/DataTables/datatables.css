@@ -197,6 +197,8 @@ table.table-bordered.dataTable td:last-child {
 table.table-bordered.dataTable tbody th,
 table.table-bordered.dataTable tbody td {
   border-bottom-width: 0;
+  color:black;
+  background-color: white;
 }
 
 div.dataTables_scrollHead table.table-bordered {

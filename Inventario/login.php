@@ -11,6 +11,7 @@
 	require_once('inc/config/db.php');
 	require_once('inc/header.html');
 ?>
+
   <body style="
     background: #201b2c;">
 
@@ -21,6 +22,7 @@ $action = '';
 		$action = $_GET['action'];
 		if($action == 'register'){
 ?>
+
 			<div class="container">
 			  <div class="row justify-content-center">
 			  <div class="col-sm-12 col-md-5 col-lg-5">
@@ -58,6 +60,7 @@ $action = '';
 				</div>
 			  </div>
 			</div>
+		</div>
 <?php
 			require 'inc/footer.php';
 			echo '</body></html>';
