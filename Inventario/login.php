@@ -126,8 +126,8 @@ $action = '';
 				<input type="password" class="form-control" id="loginPassword" name="loginPassword">
 			  </div>
 			  <button type="button" id="login" class="btn btn-primary">Entrar</button>
-			  <a href="login.php?action=register" class="btn btn-success">Cadastrar</a>
-			  <a href="login.php?action=resetPassword" class="btn btn-warning">Redefinir senha</a>
+			  <!-- <a href="login.php?action=register" class="btn btn-success">Cadastrar</a>
+			  <a href="login.php?action=resetPassword" class="btn btn-warning">Redefinir senha</a> -->
 			  <button type="reset" class="btn">Limpar</button>
 			</form>
 		  </div>

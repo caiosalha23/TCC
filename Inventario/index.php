@@ -22,11 +22,11 @@
 		<div class="col-lg-2">
 		<h1 class="my-4"></h1>
 			<div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-			  <a class="nav-link active" id="v-pills-item-tab" data-toggle="pill" href="#v-pills-item" role="tab" aria-controls="v-pills-item" aria-selected="true">Item</a>
-			  <a class="nav-link" id="v-pills-purchase-tab" data-toggle="pill" href="#v-pills-purchase" role="tab" aria-controls="v-pills-purchase" aria-selected="false">Compra</a>
-			  <a class="nav-link" id="v-pills-vendor-tab" data-toggle="pill" href="#v-pills-vendor" role="tab" aria-controls="v-pills-vendor" aria-selected="false">Fornecedor</a>
-			  <a class="nav-link" id="v-pills-sale-tab" data-toggle="pill" href="#v-pills-sale" role="tab" aria-controls="v-pills-sale" aria-selected="false">Venda</a>
-			  <a class="nav-link" id="v-pills-customer-tab" data-toggle="pill" href="#v-pills-customer" role="tab" aria-controls="v-pills-customer" aria-selected="false">Cliente</a>
+			  <a class="nav-link active" id="v-pills-item-tab" data-toggle="pill" href="#v-pills-item" role="tab" aria-controls="v-pills-item" aria-selected="true">Cadastrar/Alterar Item</a>
+			  <a class="nav-link" id="v-pills-purchase-tab" data-toggle="pill" href="#v-pills-purchase" role="tab" aria-controls="v-pills-purchase" aria-selected="false">Ordem de Compra</a>
+			  <a class="nav-link" id="v-pills-vendor-tab" data-toggle="pill" href="#v-pills-vendor" role="tab" aria-controls="v-pills-vendor" aria-selected="false">Cadastrar/Alterar Fornecedor</a>
+			  <a class="nav-link" id="v-pills-sale-tab" data-toggle="pill" href="#v-pills-sale" role="tab" aria-controls="v-pills-sale" aria-selected="false">Ordem de Venda</a>
+			  <a class="nav-link" id="v-pills-customer-tab" data-toggle="pill" href="#v-pills-customer" role="tab" aria-controls="v-pills-customer" aria-selected="false">Cadastrar/Alterar Cliente</a>
 			  <a class="nav-link" id="v-pills-search-tab" data-toggle="pill" href="#v-pills-search" role="tab" aria-controls="v-pills-search" aria-selected="false">Pesquisar</a>
 			  <a class="nav-link" id="v-pills-reports-tab" data-toggle="pill" href="#v-pills-reports" role="tab" aria-controls="v-pills-reports" aria-selected="false">Relatórios</a>
 			</div>
@@ -322,7 +322,8 @@
 								  <label for="saleDetailsTotalStock">Estoque Total</label>
 								  <input type="text" class="form-control" name="saleDetailsTotalStock" id="saleDetailsTotalStock" readonly>
 								</div>
-						<div class="form-group col-md-2">
+								
+						<div class="form-group col-md-4">
 						  <label for="saleDetailsDiscount">Percentual de Desconto %</label>
 						  <input type="text" class="form-control" id="saleDetailsDiscount" name="saleDetailsDiscount" value="0">
 						</div>
@@ -334,7 +335,7 @@
 						  <label for="saleDetailsUnitPrice">Preço por Unidade<span class="requiredIcon">*</span></label>
 						  <input type="text" class="form-control" id="saleDetailsUnitPrice" name="saleDetailsUnitPrice" value="0">
 						</div>
-						<div class="form-group col-md-3">
+						<div class="form-group col-md-2">
 						  <label for="saleDetailsTotal">Total</label>
 						  <input type="text" class="form-control" id="saleDetailsTotal" name="saleDetailsTotal">
 						</div>
